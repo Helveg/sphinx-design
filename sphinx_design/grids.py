@@ -191,7 +191,7 @@ class GridItemDirective(SdDirective):
             + self.options.get("margin", [])
             + self.options.get("padding", [])
             + (
-                [f'sd-align-major-{self.options["child-align"]}']
+                [f"sd-align-major-{self.options['child-align']}"]
                 if "child-align" in self.options
                 else []
             )
